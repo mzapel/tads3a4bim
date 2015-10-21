@@ -1,11 +1,11 @@
-package br.univel.entidades;
+package br.univel.jms;
 
 import java.io.Serializable;
 
-public class Professor implements Serializable {
+public class Aluno implements Serializable {
 
-	public Long matricula;
-	public String nome;
+	private Long matricula;
+	private String nome;
 	
 	public Long getMatricula() {
 		return matricula;
