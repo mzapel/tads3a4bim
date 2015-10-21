@@ -49,6 +49,7 @@ public class AlunoServletJMS extends HttpServlet {
  
 	/**
 	 *  Envia um objeto complexo para a fila JMS
+	 * 
 	 *  
 	 * @param aluno Classe de entidade
 	 * Esta forma de envio é a mais conhecida e utilizada atualmente
