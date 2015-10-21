@@ -1,8 +1,9 @@
-package br.univel.jms;
+package br.univel.queue;
  
 import java.io.IOException;
 import java.io.PrintWriter;
  
+
 import javax.annotation.Resource;
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -17,7 +18,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
  
-import br.univel.jms.Aluno;
+
+import br.univel.entidades.Aluno;
  
 @WebServlet("/AlunoServletJMS")
 public class AlunoServletJMS extends HttpServlet {
