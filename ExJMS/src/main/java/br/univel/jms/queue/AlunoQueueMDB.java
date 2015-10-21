@@ -1,4 +1,4 @@
-package br.univel.jms;
+package br.univel.jms.queue;
  
 import javax.ejb.ActivationConfigProperty;
 import javax.ejb.MessageDriven;
@@ -7,7 +7,9 @@ import javax.jms.MessageListener;
 import javax.jms.ObjectMessage;
 import javax.jms.TextMessage;
  
-import br.univel.jms.Aluno;
+
+
+import br.univel.entidades.Aluno;
  
 /**
  * Message-Driven Bean implementation class for: AlunoMDB
