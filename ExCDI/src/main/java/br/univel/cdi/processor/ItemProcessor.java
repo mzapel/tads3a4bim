@@ -5,6 +5,7 @@ import java.util.List;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
+import br.univel.cdi.annotations.Demo;
 import br.univel.cdi.entidades.Item;
 import br.univel.cdi.interfaces.ItemDao;
 
@@ -12,6 +13,7 @@ import br.univel.cdi.interfaces.ItemDao;
 @RequestScoped
 public class ItemProcessor {
 
+	@Demo
 	private ItemDao itemDao;
 
     public void execute() {
