@@ -3,9 +3,11 @@ package br.univel.cdi.dao;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.univel.cdi.annotations.Demo;
 import br.univel.cdi.entidades.Item;
 import br.univel.cdi.interfaces.ItemDao;
 
+@Demo
 public class DefaultItemDao implements ItemDao {
 
 	@Override
