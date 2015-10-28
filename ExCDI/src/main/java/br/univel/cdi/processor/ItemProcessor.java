@@ -3,6 +3,7 @@ package br.univel.cdi.processor;
 import java.util.List;
 
 import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
 
 import br.univel.cdi.annotations.Demo;
@@ -21,6 +22,11 @@ public class ItemProcessor {
         for (Item item : items) {
             System.out.println("Found item " + item);
         }
+    }
+    
+    @Inject
+    public ItemProcessor(@Demo ItemDao itemDao) {
+        this.itemDao = itemDao;
     }
 	
 }
